@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.9506527, g: 0.68069845, b: 0.29452518, a: 1}
+  m_IndirectSpecularColor: {r: 0.94854844, g: 0.67959887, b: 0.29447034, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 197640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -163,7 +163,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1399790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1458124}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7697130}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 16776141}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -587,7 +587,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 17325047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -640,7 +640,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 23801460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -912,7 +912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 39485615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1072,7 +1072,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 55185046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1426,7 +1426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 71382657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1458,7 +1458,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 74279151}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1573,7 +1573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 78482839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1636,7 +1636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 79922790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1668,7 +1668,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 82154218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1700,7 +1700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 85102121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1732,7 +1732,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 89618293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1790,7 +1790,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 95474305}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1821,7 +1821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 102513598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1853,7 +1853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 104964105}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pecho_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1953,7 +1953,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 106725130}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1985,7 +1985,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 109871048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2017,7 +2017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 115186328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2054,7 +2054,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 116089887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2237,7 +2237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 119645619}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Esqueleto.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2277,7 +2277,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 124711578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2309,7 +2309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 124886289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2340,7 +2340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 125708580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2372,7 +2372,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 125928767}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2676,7 +2676,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 132882495}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2791,7 +2791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 137582841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2823,7 +2823,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 142386233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cuello_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2855,7 +2855,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 142979364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2887,7 +2887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 143457630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2919,7 +2919,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 149963391}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3047,7 +3047,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 154281946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3078,7 +3078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 156220061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3111,7 +3111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 158170884}
   - component: {fileID: 158170885}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3251,7 +3251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 158263517}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3319,7 +3319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 162318459}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3438,7 +3438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 168154441}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3588,7 +3588,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 187079467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3620,7 +3620,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 190938909}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3652,7 +3652,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 191541312}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3683,7 +3683,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 192600788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3781,7 +3781,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 195578580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3816,7 +3816,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 196747994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3896,7 +3896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 202312199}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3932,7 +3932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 209484753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3964,7 +3964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 210513835}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4137,7 +4137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 221130947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4169,7 +4169,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 223433655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4201,7 +4201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 225552924}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4232,7 +4232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 227621417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4264,7 +4264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 228449422}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4327,7 +4327,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 233691143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4359,7 +4359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 234480589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cuello_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4422,7 +4422,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 237143399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4454,7 +4454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 242519931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4561,7 +4561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 253929938}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5266,7 +5266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 259820203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5298,7 +5298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 265600729}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5351,7 +5351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 268384575}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5382,7 +5382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 272811452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pecho_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5416,7 +5416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 273223221}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5448,7 +5448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 276372436}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5521,7 +5521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 286308416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5553,7 +5553,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 287237617}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5606,7 +5606,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 289108614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5638,7 +5638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 290870936}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5670,7 +5670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 294021759}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5702,7 +5702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 295121793}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5734,7 +5734,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 295741528}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5765,7 +5765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 296521696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5797,7 +5797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 298307064}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5880,7 +5880,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 308612388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5912,7 +5912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 310722966}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6008,7 +6008,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 314141508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6113,7 +6113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 326636649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6145,7 +6145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 331241404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6177,7 +6177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 332074069}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6319,7 +6319,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 338407266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6484,7 +6484,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 344275462}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6516,7 +6516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 344550648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6639,7 +6639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351333996}
   - component: {fileID: 351333997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitboxLanza
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -6691,7 +6691,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 354525261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6903,7 +6903,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 363189198}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6935,7 +6935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 365748593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6967,7 +6967,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 366527633}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6999,7 +6999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 368054210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7052,7 +7052,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 377357660}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7084,7 +7084,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 381350212}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7116,7 +7116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 384137807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7245,7 +7245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 391036624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7298,7 +7298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 401928438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7350,7 +7350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 409251941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7381,7 +7381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 409955094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7413,7 +7413,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 416882606}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7445,7 +7445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417127992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7498,7 +7498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 418579536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7530,7 +7530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 421162678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7562,7 +7562,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 421413168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7593,7 +7593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 421660364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7625,7 +7625,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422570924}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7656,7 +7656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 426882737}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7688,7 +7688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 427235291}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7720,7 +7720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 436417763}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7752,7 +7752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 436846496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7783,7 +7783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 436989612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7954,7 +7954,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 442535457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7986,7 +7986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 443910291}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8211,7 +8211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 455275625}
   - component: {fileID: 455275626}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitboxLanza
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -8263,7 +8263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 458451035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8295,7 +8295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 462894325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8326,7 +8326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 464566371}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8658,7 +8658,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 471796813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8690,7 +8690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 472117243}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8722,7 +8722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 474080541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8774,7 +8774,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 483760869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8951,7 +8951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 489427165}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8983,7 +8983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 491551780}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9014,7 +9014,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 492134135}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9066,7 +9066,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 494277717}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9119,7 +9119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 504364477}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9328,7 +9328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516102191}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9359,7 +9359,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 519631365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barriga_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9436,7 +9436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 534762972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9669,7 +9669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 549472326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9701,7 +9701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 561255180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9733,7 +9733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 563185409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9764,7 +9764,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 565547825}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9796,7 +9796,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 572141577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barriga_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9828,7 +9828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 573403023}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9867,7 +9867,7 @@ GameObject:
   - component: {fileID: 578194298}
   - component: {fileID: 578194297}
   - component: {fileID: 578194296}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tengu (4)
   m_TagString: Tengu
   m_Icon: {fileID: 0}
@@ -10079,7 +10079,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 578736496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10111,7 +10111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 579950376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10307,7 +10307,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 580948272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10339,7 +10339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 582008239}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10383,7 +10383,7 @@ GameObject:
   - component: {fileID: 590980392}
   - component: {fileID: 590980391}
   - component: {fileID: 590980390}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tengu (1)
   m_TagString: Tengu
   m_Icon: {fileID: 0}
@@ -10595,7 +10595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 593144975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10627,7 +10627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 599500396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10755,7 +10755,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 603630548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10787,7 +10787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 604984108}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10819,7 +10819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 612457060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10850,7 +10850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 613627741}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10882,7 +10882,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 614358750}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pecho_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10916,7 +10916,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 615914953}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10948,7 +10948,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 616299571}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11206,7 +11206,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 623783291}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11339,7 +11339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 625580096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11637,7 +11637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 632825547}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12392,7 +12392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 640526209}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12423,7 +12423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 641477363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12455,7 +12455,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 642174642}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12592,7 +12592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 643141534}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12624,7 +12624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 646090580}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12656,7 +12656,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 649343961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12775,7 +12775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 661328065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12807,7 +12807,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 661749738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12896,7 +12896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 668817024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12928,7 +12928,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 670877632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12960,7 +12960,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 671211079}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12997,7 +12997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 672830458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13028,7 +13028,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 672937251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13060,7 +13060,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 672948341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13097,7 +13097,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 673906213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13195,7 +13195,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 674266889}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13226,7 +13226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 675928295}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13284,7 +13284,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 679063841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13316,7 +13316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 690902803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barriga_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13981,7 +13981,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 713039313}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14013,7 +14013,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 715133548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14141,7 +14141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 722238656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14173,7 +14173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 724790971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14205,7 +14205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 727319054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14237,7 +14237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 727399525}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14269,7 +14269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 727934583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14301,7 +14301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 729385387}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14333,7 +14333,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 730917956}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cuello_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14431,7 +14431,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 732672494}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14463,7 +14463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 733505308}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14495,7 +14495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 734090205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14693,7 +14693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 735317769}
   - component: {fileID: 735317770}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -14789,7 +14789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 737424804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14821,7 +14821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 739080023}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14874,7 +14874,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 742665846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14905,7 +14905,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 742693604}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14937,7 +14937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 742787279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14974,7 +14974,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 744735057}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15006,7 +15006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 746506411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15037,7 +15037,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 748539644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15068,7 +15068,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 749119248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15099,7 +15099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 750055030}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15944,7 +15944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 756356316}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15976,7 +15976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 756487339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16044,7 +16044,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 757510916}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16111,7 +16111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 771038075}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16143,7 +16143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 774378784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16175,7 +16175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 779474854}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Esqueleto.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16215,7 +16215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 780481562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16379,7 +16379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 784103940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16477,7 +16477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 793111191}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16614,7 +16614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 794366979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16646,7 +16646,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 799433647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16678,7 +16678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 800194598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16710,7 +16710,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 802178461}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16832,7 +16832,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 803186427}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16864,7 +16864,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 805580300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16896,7 +16896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 805888190}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17003,7 +17003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 807883761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17035,7 +17035,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 808704633}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17067,7 +17067,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811358573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17099,7 +17099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 827785967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17263,7 +17263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 841898465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17436,7 +17436,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 844617169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17633,7 +17633,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 851683797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17664,7 +17664,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 852533383}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17696,7 +17696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 856863872}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17727,7 +17727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 860276553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17758,7 +17758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 865339900}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17789,7 +17789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 869443491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29896,7 +29896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 900238243}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29927,7 +29927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 904035807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29959,7 +29959,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 906153350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29991,7 +29991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 906913724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30388,7 +30388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 919025897}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30420,7 +30420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 920135819}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30452,7 +30452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 920499610}
   - component: {fileID: 920499611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitboxLanza
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -30669,7 +30669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 924284703}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30701,7 +30701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 927736958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30733,7 +30733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 928044820}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30765,7 +30765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 928436854}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30797,7 +30797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 929054738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30829,7 +30829,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 930585383}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31083,7 +31083,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 939702884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31115,7 +31115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 942100406}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31147,7 +31147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 944347867}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31232,7 +31232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 947854329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31264,7 +31264,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 951560081}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31327,7 +31327,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 959053445}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31492,7 +31492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 962851647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31695,7 +31695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 968025288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31802,7 +31802,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 971142094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31900,7 +31900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 973284918}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31936,7 +31936,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 976977280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32046,7 +32046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 977452473}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32077,7 +32077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 982494813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32109,7 +32109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 982511369}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32141,7 +32141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 984405201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32173,7 +32173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 985928005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32227,7 +32227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 987456678}
   - component: {fileID: 987456679}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitboxLanza
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -32300,7 +32300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 994269434}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32353,7 +32353,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 995266620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32385,7 +32385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 996330744}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32459,7 +32459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1006629784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32482,6 +32482,108 @@ Transform:
   - {fileID: 1222927773}
   m_Father: {fileID: 1174351723}
   m_LocalEulerAnglesHint: {x: -28.595284, y: -5.68988, z: -64.048065}
+--- !u!1 &1007861530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1007861534}
+  - component: {fileID: 1007861533}
+  - component: {fileID: 1007861532}
+  - component: {fileID: 1007861531}
+  m_Layer: 11
+  m_Name: LockOnTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1007861531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007861530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1007861532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007861530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1007861533
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007861530}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 58812566712977355}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1007861534
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007861530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.478}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1438224622}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -60.486, y: 4.813}
+  m_SizeDelta: {x: 0.1, y: 0.1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1010293343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32533,7 +32635,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1011805620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32565,7 +32667,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1012189826}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32593,6 +32695,85 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dcd1373e259438e4fa820829ca05ee1d, type: 3}
   m_PrefabInstance: {fileID: 977234780}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1018683807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1018683809}
+  - component: {fileID: 1018683808}
+  m_Layer: 0
+  m_Name: TargetLockOn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1018683808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018683807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ExcludedPropertiesInInspector:
+  - m_Script
+  m_LockStageInInspector: 
+  m_StreamingVersion: 20170927
+  m_Priority: 10
+  m_StandbyUpdate: 2
+  m_LookAt: {fileID: 1041680469}
+  m_Follow: {fileID: 1254694210}
+  m_Lens:
+    FieldOfView: 60.000004
+    OrthographicSize: 10
+    NearClipPlane: 0.1
+    FarClipPlane: 5000
+    Dutch: 0
+    ModeOverride: 0
+    LensShift: {x: 0, y: 0}
+    GateFit: 2
+    FocusDistance: 10
+    m_SensorSize: {x: 36, y: 24}
+    Iso: 200
+    ShutterSpeed: 0.005
+    Aperture: 16
+    BladeCount: 5
+    Curvature: {x: 2, y: 11}
+    BarrelClipping: 0.25
+    Anamorphism: 0
+  m_Transitions:
+    m_BlendHint: 0
+    m_InheritPosition: 0
+    m_OnCameraLive:
+      m_PersistentCalls:
+        m_Calls: []
+  m_LegacyBlendHint: 0
+  m_ComponentOwner: {fileID: 2058177289}
+--- !u!4 &1018683809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018683807}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.053171534, y: -0.07289239, z: -0.0038917023, w: 0.99591386}
+  m_LocalPosition: {x: 1.2246916, y: -0.9007075, z: -8.321537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2058177289}
+  m_Father: {fileID: 1670021487}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1020455721
 GameObject:
   m_ObjectHideFlags: 0
@@ -32602,7 +32783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1020455722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32634,7 +32815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1027835104}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32687,7 +32868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1030472521}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cadera_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32721,7 +32902,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1033134623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32752,7 +32933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034225449}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32783,7 +32964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1034237955}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33572,7 +33753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1038474667}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33603,7 +33784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1039994105}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cuello_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33626,6 +33807,37 @@ Transform:
   - {fileID: 1399790}
   m_Father: {fileID: 1329049408}
   m_LocalEulerAnglesHint: {x: -13.069316, y: 0.0000004186003, z: -0.0000027104547}
+--- !u!1 &1041680468
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041680469}
+  m_Layer: 0
+  m_Name: EnemyTargetLockator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1041680469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041680468}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.6390803, y: 4.734783, z: -4.0872045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1044774286
 GameObject:
   m_ObjectHideFlags: 0
@@ -33635,7 +33847,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1044774287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33772,7 +33984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1046364405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33865,7 +34077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1051070616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33897,7 +34109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1051597238}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34008,7 +34220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1059091591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34040,7 +34252,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1061933468}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34287,7 +34499,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1081451259}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34319,7 +34531,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1081727921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cuello_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34351,7 +34563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1085577005}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34383,7 +34595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1086280716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34415,7 +34627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1087825510}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34525,7 +34737,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1092224548}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34557,7 +34769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1099138856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34589,7 +34801,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1100288934}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34620,7 +34832,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1102379668}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34727,7 +34939,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1112297363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34779,7 +34991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1122995961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34811,7 +35023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1124004487}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34864,7 +35076,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1124801583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34917,7 +35129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1131276022}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34949,7 +35161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1132618078}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34980,7 +35192,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1136832216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35011,7 +35223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1139129137}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35069,7 +35281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1151522508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35167,7 +35379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1160058192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35199,7 +35411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1160485839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35236,7 +35448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1164455334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35271,7 +35483,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1166334286}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cadera_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35371,7 +35583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1171176557}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35424,7 +35636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1172159319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pecho_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35458,7 +35670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1174351723}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35490,7 +35702,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1177158536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35527,7 +35739,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1180012612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35624,7 +35836,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1182866696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35656,7 +35868,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1183755402}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35688,7 +35900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1190450217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35720,7 +35932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1195939279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35752,7 +35964,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1198813824}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35784,7 +35996,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1201291312}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35895,7 +36107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1204744872}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35926,7 +36138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1208442518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35961,7 +36173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1209561203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36056,7 +36268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1211535742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36087,7 +36299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1213687793}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36221,7 +36433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1215230360}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36331,7 +36543,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1218682125}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36363,7 +36575,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1219451905}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36395,7 +36607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1219739653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36427,7 +36639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1222133632}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36459,7 +36671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1222927773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36521,7 +36733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1236006756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36716,7 +36928,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1240652330}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36749,7 +36961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1241633739}
   - component: {fileID: 1241633740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -36845,7 +37057,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1244758702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36877,7 +37089,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1246677829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36962,7 +37174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1250781707}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36993,7 +37205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1252970174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37016,6 +37228,57 @@ Transform:
   - {fileID: 623783291}
   m_Father: {fileID: 742787279}
   m_LocalEulerAnglesHint: {x: -28.595284, y: -5.68988, z: -64.048065}
+--- !u!1 &1254694208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254694210}
+  - component: {fileID: 1254694209}
+  m_Layer: 0
+  m_Name: CameraTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1254694209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254694208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6505017af5c24f44e924fd0e04c79fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 2459777086638163787}
+  offset: {x: 0, y: 0, z: 0}
+  clampAxis: {x: 60, y: 60}
+  follow_smoothing: 5
+  rotate_Smoothing: 5
+  senstivity: 60
+  lockedTarget: 0
+--- !u!4 &1254694210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254694208}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.58561134, y: 3.8340757, z: -2.408742}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1256149275
 GameObject:
   m_ObjectHideFlags: 0
@@ -37025,7 +37288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1256149276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37057,7 +37320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1258480183}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37088,7 +37351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1259081472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37119,7 +37382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1261514804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37151,7 +37414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1261845132}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37209,6 +37472,219 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1272029627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1272029628}
+  - component: {fileID: 1272029631}
+  - component: {fileID: 1272029629}
+  m_Layer: 0
+  m_Name: SecVision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1272029628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272029627}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4364030134272376641}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1272029629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272029627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearColorMode: 2
+  backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
+  clearDepth: 1
+  volumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  volumeAnchorOverride: {fileID: 0}
+  antialiasing: 0
+  SMAAQuality: 2
+  dithering: 0
+  stopNaNs: 0
+  taaSharpenStrength: 0.5
+  TAAQuality: 1
+  taaHistorySharpening: 0.35
+  taaAntiFlicker: 0.5
+  taaMotionVectorRejection: 0
+  taaAntiHistoryRinging: 0
+  taaBaseBlendFactor: 0.875
+  taaJitterScale: 1
+  physicalParameters:
+    m_Iso: 200
+    m_ShutterSpeed: 0.005
+    m_Aperture: 16
+    m_FocusDistance: 10
+    m_BladeCount: 5
+    m_Curvature: {x: 2, y: 11}
+    m_BarrelClipping: 0.25
+    m_Anamorphism: 0
+  flipYMode: 0
+  xrRendering: 1
+  fullscreenPassthrough: 0
+  allowDynamicResolution: 0
+  customRenderingSettings: 0
+  invertFaceCulling: 0
+  probeLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  hasPersistentHistory: 0
+  screenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  screenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  allowDeepLearningSuperSampling: 1
+  deepLearningSuperSamplingUseCustomQualitySettings: 0
+  deepLearningSuperSamplingQuality: 0
+  deepLearningSuperSamplingUseCustomAttributes: 0
+  deepLearningSuperSamplingUseOptimalSettings: 1
+  deepLearningSuperSamplingSharpening: 0
+  fsrOverrideSharpness: 0
+  fsrSharpness: 0.92
+  exposureTarget: {fileID: 0}
+  materialMipBias: 0
+  m_RenderingPathCustomFrameSettings:
+    bitDatas:
+      data1: 140666587840333
+      data2: 13763000512783810584
+    lodBias: 1
+    lodBiasMode: 0
+    lodBiasQualityLevel: 0
+    maximumLODLevel: 0
+    maximumLODLevelMode: 0
+    maximumLODLevelQualityLevel: 0
+    sssQualityMode: 0
+    sssQualityLevel: 0
+    sssCustomSampleBudget: 20
+    msaaMode: 1
+    materialQuality: 0
+  renderingPathCustomFrameSettingsOverrideMask:
+    mask:
+      data1: 0
+      data2: 0
+  defaultFrameSettings: 0
+  m_Version: 9
+  m_ObsoleteRenderingPath: 0
+  m_ObsoleteFrameSettings:
+    overrides: 0
+    enableShadow: 0
+    enableContactShadows: 0
+    enableShadowMask: 0
+    enableSSR: 0
+    enableSSAO: 0
+    enableSubsurfaceScattering: 0
+    enableTransmission: 0
+    enableAtmosphericScattering: 0
+    enableVolumetrics: 0
+    enableReprojectionForVolumetrics: 0
+    enableLightLayers: 0
+    enableExposureControl: 1
+    diffuseGlobalDimmer: 0
+    specularGlobalDimmer: 0
+    shaderLitMode: 0
+    enableDepthPrepassWithDeferredRendering: 0
+    enableTransparentPrepass: 0
+    enableMotionVectors: 0
+    enableObjectMotionVectors: 0
+    enableDecals: 0
+    enableRoughRefraction: 0
+    enableTransparentPostpass: 0
+    enableDistortion: 0
+    enablePostprocess: 0
+    enableOpaqueObjects: 0
+    enableTransparentObjects: 0
+    enableRealtimePlanarReflection: 0
+    enableMSAA: 0
+    enableAsyncCompute: 0
+    runLightListAsync: 0
+    runSSRAsync: 0
+    runSSAOAsync: 0
+    runContactShadowsAsync: 0
+    runVolumeVoxelizationAsync: 0
+    lightLoopSettings:
+      overrides: 0
+      enableDeferredTileAndCluster: 0
+      enableComputeLightEvaluation: 0
+      enableComputeLightVariants: 0
+      enableComputeMaterialVariants: 0
+      enableFptlForForwardOpaque: 0
+      enableBigTilePrepass: 0
+      isFptlEnabled: 0
+--- !u!20 &1272029631
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272029627}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 1
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &1275703960
 GameObject:
   m_ObjectHideFlags: 0
@@ -37218,7 +37694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1275703961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37250,7 +37726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1281030819}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37282,7 +37758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1281732045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37315,7 +37791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1281977419}
   - component: {fileID: 1281977420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -37411,7 +37887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1282689045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37669,7 +38145,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1287307873}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37701,7 +38177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1291062691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37733,7 +38209,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1291652281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37765,7 +38241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1292460465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37818,7 +38294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1293684477}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37871,7 +38347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1301589864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37903,7 +38379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1305514332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37992,7 +38468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1311204171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38195,7 +38671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1313846892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38227,7 +38703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1315615676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38259,7 +38735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1318733166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38386,7 +38862,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1327658723}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38418,7 +38894,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1329049408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pecho_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38547,7 +39023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1336111747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38579,7 +39055,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1341439317}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38611,7 +39087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1344896638}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cuello_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38748,7 +39224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1348201914}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Esqueleto.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38795,7 +39271,7 @@ GameObject:
   - component: {fileID: 1348257020}
   - component: {fileID: 1348257019}
   - component: {fileID: 1348257018}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tengu (2)
   m_TagString: Tengu
   m_Icon: {fileID: 0}
@@ -39311,7 +39787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1363158378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44095,7 +44571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1369402174}
   - component: {fileID: 1369402175}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44235,7 +44711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1369915528}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44267,7 +44743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1370864630}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44643,7 +45119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1373273364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barriga_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44675,7 +45151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1374561591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44707,7 +45183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1375662230}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45464,7 +45940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1377262346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45561,7 +46037,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1384166065}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45593,7 +46069,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1384379036}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45730,7 +46206,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1389579257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45837,7 +46313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1395823915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45868,7 +46344,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1400680694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45921,7 +46397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1403376956}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46029,7 +46505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1406478173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46061,7 +46537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1406840377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46092,7 +46568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1408044251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46123,7 +46599,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1408809158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46243,7 +46719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423278464}
   - component: {fileID: 1423278465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -46443,7 +46919,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1429202688}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46476,7 +46952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1429744793}
   - component: {fileID: 1429744794}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitboxLanza
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -46549,7 +47025,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1434554998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cadera_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46583,7 +47059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1437120226}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46681,7 +47157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1437537376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46704,6 +47180,95 @@ Transform:
   - {fileID: 973284918}
   m_Father: {fileID: 1085577005}
   m_LocalEulerAnglesHint: {x: 9.201291, y: -3.0957882, z: -44.10097}
+--- !u!1 &1438224621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1438224622}
+  - component: {fileID: 1438224625}
+  - component: {fileID: 1438224624}
+  - component: {fileID: 1438224623}
+  m_Layer: 11
+  m_Name: Target
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1438224622
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438224621}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1007861534}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.1, y: 0.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1438224623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438224621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29cd483985657cc478a8028f9916db6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 4364030134272376641}
+--- !u!114 &1438224624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438224621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1438224625
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438224621}
+  m_CullTransparentMesh: 1
 --- !u!65 &1442699387
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46734,7 +47299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1446913485}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46766,7 +47331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1448601328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46797,7 +47362,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1448765917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46829,7 +47394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1451116865}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46860,7 +47425,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1455091694}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46891,7 +47456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1455730804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46928,7 +47493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1456060413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46991,7 +47556,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1459507952}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47022,7 +47587,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1465322851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47053,7 +47618,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1466759823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47151,7 +47716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1468643851}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47183,7 +47748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1473317606}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47215,7 +47780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1478145329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47268,7 +47833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1485794487}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47375,7 +47940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1488317219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47481,7 +48046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1494028249}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47618,7 +48183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1501404150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47732,12 +48297,12 @@ Transform:
   m_GameObject: {fileID: 1502040169}
   serializedVersion: 2
   m_LocalRotation: {x: 0.000000020476087, y: -0.7071068, z: 0.000000020476088, w: 0.7071068}
-  m_LocalPosition: {x: 3.0310006, y: 5.4909673, z: -4.0699997}
+  m_LocalPosition: {x: 3.670081, y: 0.7561841, z: 0.017204762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 133633752}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1670021487}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1503570907
 GameObject:
@@ -47748,7 +48313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1503570908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47881,7 +48446,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1505316881}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47912,7 +48477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1507860285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47944,7 +48509,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1510928805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barriga_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47976,7 +48541,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1512484203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48105,7 +48670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1520263300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50863,7 +51428,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1530121864}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50895,7 +51460,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1530932472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51002,7 +51567,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1533183458}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51161,7 +51726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1545312211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51394,7 +51959,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1554314866}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51427,7 +51992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1556728580}
   - component: {fileID: 1556728581}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51593,7 +52158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1561135429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51772,7 +52337,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1566184075}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51870,7 +52435,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1571552745}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52679,7 +53244,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1589082982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52859,7 +53424,7 @@ GameObject:
   - component: {fileID: 1593378672}
   - component: {fileID: 1593378671}
   - component: {fileID: 1593378670}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tengu (5)
   m_TagString: Tengu
   m_Icon: {fileID: 0}
@@ -53071,7 +53636,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1596373839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53229,7 +53794,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1603003371}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53268,7 +53833,7 @@ GameObject:
   - component: {fileID: 1606122650}
   - component: {fileID: 1606122649}
   - component: {fileID: 1606122648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tengu (6)
   m_TagString: Tengu
   m_Icon: {fileID: 0}
@@ -53480,7 +54045,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1608759321}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53512,7 +54077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1610282914}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53544,7 +54109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1610362862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54004,7 +54569,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1624076472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54215,7 +54780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1637119003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54246,7 +54811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1638659188}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54423,7 +54988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1643288352}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54454,7 +55019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1644225958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Esqueleto.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54494,7 +55059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1644245223}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pecho_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54594,7 +55159,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1647611697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54626,7 +55191,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1652928304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54658,7 +55223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1653837240}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54836,7 +55401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1657797596}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54868,7 +55433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1663766278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54900,7 +55465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1665411787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55352,6 +55917,112 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1821034440}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1670021484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670021487}
+  - component: {fileID: 1670021486}
+  - component: {fileID: 1670021485}
+  m_Layer: 0
+  m_Name: State-Driven Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &1670021485
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670021484}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 141553f9c44683644b45e18993e8825b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1670021486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670021484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325a6a3050a061e4b8aa51386c30e8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ExcludedPropertiesInInspector:
+  - m_Script
+  m_LockStageInInspector: 
+  m_StreamingVersion: 20170927
+  m_Priority: 10
+  m_StandbyUpdate: 2
+  m_LookAt: {fileID: 0}
+  m_Follow: {fileID: 0}
+  m_AnimatedTarget: {fileID: 1670021485}
+  m_LayerIndex: 0
+  m_ShowDebugText: 0
+  m_ChildCameras:
+  - {fileID: 1018683808}
+  - {fileID: 1502040171}
+  m_Instructions:
+  - m_FullHash: -358258579
+    m_VirtualCamera: {fileID: 1502040171}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
+  - m_FullHash: 1042650486
+    m_VirtualCamera: {fileID: 1018683808}
+    m_ActivateAfter: 0
+    m_MinDuration: 0
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 0.5
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_ParentHash:
+  - m_Hash: -358258579
+    m_ParentHash: 756556552
+  - m_Hash: 1042650486
+    m_ParentHash: 756556552
+--- !u!4 &1670021487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670021484}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6390803, y: 4.734783, z: -4.0872045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1018683809}
+  - {fileID: 1502040172}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1673871621 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5568371526223589888, guid: dcd1373e259438e4fa820829ca05ee1d, type: 3}
@@ -55387,7 +56058,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1678763560}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55419,7 +56090,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1681112880}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55450,7 +56121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1682619225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55485,7 +56156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1683450926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55748,7 +56419,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1688645350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55779,7 +56450,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1691161300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55811,7 +56482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1691252280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55842,7 +56513,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1693797428}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55874,7 +56545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1695556821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55905,7 +56576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1702752964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barriga_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55937,7 +56608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1702988774}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56153,7 +56824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1714937409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56185,7 +56856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1715532066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56605,7 +57276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1724147153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56702,7 +57373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1725125941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56734,7 +57405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1725252582}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56766,7 +57437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1729032719}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56798,7 +57469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1735460429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56896,7 +57567,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1738487278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56928,7 +57599,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1743742768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57029,7 +57700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1756877878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57082,7 +57753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1759743298}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57367,7 +58038,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1765882821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57430,7 +58101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1768945725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Muslo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57462,7 +58133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1770570344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57493,7 +58164,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1771261606}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57630,7 +58301,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1775764173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57722,7 +58393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1778416511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57937,7 +58608,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1782757977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57968,7 +58639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1789366084}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58165,7 +58836,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1793334512}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58196,7 +58867,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1795361843}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58231,7 +58902,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1801371142}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58263,7 +58934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1801991432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58362,7 +59033,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807676841}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58415,7 +59086,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1812121994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58785,7 +59456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1813458463}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58817,7 +59488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1814643636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59007,7 +59678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1821894585}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59114,7 +59785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1828790546}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59146,7 +59817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1829937536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59178,7 +59849,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1831587649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59210,7 +59881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1833003512}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59242,7 +59913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1836539885}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59274,7 +59945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1838836542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59381,7 +60052,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1844185788}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59413,7 +60084,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1845698175}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59445,7 +60116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1846237437}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59482,7 +60153,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1857371248}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59513,7 +60184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1860294605}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59770,7 +60441,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1864516438}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59802,7 +60473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1868302700}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59854,7 +60525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1869320140}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59886,7 +60557,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1869679069}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59918,7 +60589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1870586164}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59950,7 +60621,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1871988332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60003,7 +60674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1875277063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60110,7 +60781,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1881744304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60172,7 +60843,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1891859203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Esqueleto.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60587,7 +61258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1897513746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60715,7 +61386,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1900664069}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60879,7 +61550,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1905155350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mano_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60914,7 +61585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1911162587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60945,7 +61616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1912654631}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61043,7 +61714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1919249192}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61097,7 +61768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1922379954}
   - component: {fileID: 1922379955}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61273,7 +61944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1929228582}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61305,7 +61976,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1933010595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61336,7 +62007,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1934857621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61368,7 +62039,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1939003922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61400,7 +62071,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1939240292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61473,7 +62144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1942892247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61505,7 +62176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1944284979}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61537,7 +62208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1944517887}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61569,7 +62240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1947463150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61601,7 +62272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1952704882}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61632,7 +62303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1953029697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hombro_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61664,7 +62335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1953941765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61884,7 +62555,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1958244159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61917,7 +62588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1959079242}
   - component: {fileID: 1959079243}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -62193,7 +62864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1968808851}
   - component: {fileID: 1968808852}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.001
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -62346,7 +63017,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1974186262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62377,7 +63048,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1974232304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62409,7 +63080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1976526776}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62440,7 +63111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1977073614}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62476,7 +63147,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1979936327}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62508,7 +63179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1980331898}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62541,7 +63212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1982465981}
   - component: {fileID: 1982465982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62681,7 +63352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1984125829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62733,7 +63404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1989259913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63109,7 +63780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2004593698}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63141,7 +63812,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2005142596}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63208,7 +63879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2007039871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63315,7 +63986,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2009944316}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BrazoB_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63347,7 +64018,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2011697089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63400,7 +64071,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2017041746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Espinilla_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63431,7 +64102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2017626978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63485,7 +64156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2029321200}
   - component: {fileID: 2029321201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63651,7 +64322,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2033220629}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IK_Pierna_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63848,7 +64519,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2036309619}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Esqueleto.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63888,7 +64559,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2037443406}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63919,7 +64590,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2042738295}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cadera_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63953,7 +64624,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2045485640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64053,6 +64724,101 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.017320508, y: 0.019999996, z: 0.061632913}
   m_Center: {x: 0, y: 0.000000007450581, z: 0.02081646}
+--- !u!1 &2058177288
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2058177289}
+  - component: {fileID: 2058177292}
+  - component: {fileID: 2058177291}
+  - component: {fileID: 2058177290}
+  m_Layer: 0
+  m_Name: cm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2058177289
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058177288}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1018683809}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2058177290
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058177288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 0, z: -10}
+  m_XDamping: 1
+  m_YDamping: 1
+  m_ZDamping: 1
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
+--- !u!114 &2058177291
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058177288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TrackedObjectOffset: {x: 0, y: 0, z: 0}
+  m_LookaheadTime: 0
+  m_LookaheadSmoothing: 0
+  m_LookaheadIgnoreY: 0
+  m_HorizontalDamping: 0.5
+  m_VerticalDamping: 0.5
+  m_ScreenX: 0.5
+  m_ScreenY: 0.5
+  m_DeadZoneWidth: 0
+  m_DeadZoneHeight: 0
+  m_SoftZoneWidth: 0.8
+  m_SoftZoneHeight: 0.8
+  m_BiasX: 0
+  m_BiasY: 0
+  m_CenterOnActivate: 1
+--- !u!114 &2058177292
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058177288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!65 &2058495967
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64188,7 +64954,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2063126366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64219,7 +64985,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2065615645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64250,7 +65016,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2067439351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cadera_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64284,7 +65050,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2068981388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64315,7 +65081,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2072659246}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64389,7 +65155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2077541384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pie_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64421,7 +65187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2079533053}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Corazon_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64453,7 +65219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2081010753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64590,7 +65356,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2086749703}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pierna_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64622,7 +65388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2090606156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64654,7 +65420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2092381829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64693,7 +65459,7 @@ GameObject:
   - component: {fileID: 2093684820}
   - component: {fileID: 2093684819}
   - component: {fileID: 2093684818}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tengu (3)
   m_TagString: Tengu
   m_Icon: {fileID: 0}
@@ -64971,7 +65737,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2105502218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: POLE_Brazo_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65002,7 +65768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2105816394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brazo1_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65165,7 +65931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2108238809}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PPOLE_Pierna_L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65395,7 +66161,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2115185061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabeza_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65506,7 +66272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2120846117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cadera_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65540,7 +66306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2123629684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indice1_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65645,7 +66411,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2124764354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65961,7 +66727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2136671992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pulgar2_R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66023,7 +66789,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2140541316}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lanza.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66055,7 +66821,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2140541876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Menique2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66087,7 +66853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2144380277}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tobillo_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66120,7 +66886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2144625898}
   - component: {fileID: 2144625899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitboxLanza
   m_TagString: Arma
   m_Icon: {fileID: 0}
@@ -66820,6 +67586,7 @@ MonoBehaviour:
   dashDuration: 0.5
   dashCooldown: 2
   isDashing: 0
+  lockMovement: 0
 --- !u!4 &357372653019210487
 Transform:
   m_ObjectHideFlags: 0
@@ -80039,6 +80806,7 @@ GameObject:
   - component: {fileID: 321820942782114742}
   - component: {fileID: 1424428569}
   - component: {fileID: 1424428570}
+  - component: {fileID: 8752674545597832449}
   m_Layer: 0
   m_Name: KenjiroIdle
   m_TagString: Player
@@ -82669,7 +83437,8 @@ Transform:
   m_LocalPosition: {x: 3.0310006, y: 5.4909673, z: -4.0699997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1272029628}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4367084497572497905
@@ -91415,6 +92184,31 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 3.02, z: -0.56}
+--- !u!114 &8752674545597832449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2983971851308817905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5bde3307d488a4fb1012a97baee881, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  enemyTarget_Locator: {fileID: 1968720545}
+  cinemachineAnimator: {fileID: 1670021485}
+  zeroVert_look: 0
+  noticeZone: 10
+  lookAtSmoothing: 2
+  maxNoticeAngle: 60
+  crossHair_Scale: 0.1
+  tarLoc: {x: 0, y: 0, z: 0}
+  camFollow: {fileID: 1254694209}
+  lockOnCanva: {fileID: 1007861534}
 --- !u!1 &8773196600659824049
 GameObject:
   m_ObjectHideFlags: 0
@@ -92240,7 +93034,6 @@ SceneRoots:
   - {fileID: 543450652796533728}
   - {fileID: 198522796}
   - {fileID: 362834981}
-  - {fileID: 1502040172}
   - {fileID: 1214880794}
   - {fileID: 1802701659}
   - {fileID: 70053712}
@@ -92255,3 +93048,7 @@ SceneRoots:
   - {fileID: 1709693354}
   - {fileID: 1540001495}
   - {fileID: 1689134320567665022}
+  - {fileID: 1041680469}
+  - {fileID: 1670021487}
+  - {fileID: 1254694210}
+  - {fileID: 1007861534}

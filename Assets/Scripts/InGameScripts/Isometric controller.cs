@@ -60,6 +60,8 @@ public class Isometriccontroller : MonoBehaviour
 
     SFXManager sfx;
 
+    public bool lockMovement;
+
 
     // Start is called before the first frame update
     void Start()

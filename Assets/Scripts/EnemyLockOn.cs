@@ -24,6 +24,8 @@ public class EnemyLockOn : MonoBehaviour
     float currentYOffset;
     Vector3 pos;
 
+    public Vector3 tarLoc;
+
     [SerializeField] CameraFollow camFollow;
     [SerializeField] Transform lockOnCanva;
     Isometriccontroller movement;
@@ -41,7 +43,8 @@ public class EnemyLockOn : MonoBehaviour
     void Update()
     {
         camFollow.lockedTarget = enemyLocked;
-        if(InputGetKeyDown(KeyCode.Q))
+        movement.lockMovement = enemyLocked;
+        if(Input.GetKeyDown(KeyCode.Q))
         {
             if(currentTarget)
             {
@@ -83,7 +86,7 @@ public class EnemyLockOn : MonoBehaviour
         Collider[] nearbyTargets = Physics.OverlapSphere(transform.position, noticeZone, targetLayer);
         float closestAngle = maxNoticeAngle;
         Transform closestTarget = null;
-        if(nearbyTargets.Lenght <= 0) return null;
+        if(nearbyTargets.Length <= 0) return null;
 
         for (int i = 0; i < nearbyTargets.Length; i++)
         {
@@ -106,14 +109,47 @@ public class EnemyLockOn : MonoBehaviour
 
         currentYOffset = h - half_h;
         if(zeroVert_look && currentYOffset > 1.6f && currentYOffset < 1.6f * 3) currentYOffset = 1.6f;
-        Vector3 tarPos = closestTarget.position + new Vector3(0, currentYOffset, 0);
-        if(Blocked(tarPos)) return null;
+        tarLoc = closestTarget.position + new Vector3(0, currentYOffset, 0);
+        if(Blocked()) return null;
         return closestTarget;
+    }
+
+    private void LookAtTarget()
+    {
+        if(currentTarget == null)
+        {
+            ResetTarget();
+            return;
+        }
+
+        lockOnCanva.position = tarLoc;
+        lockOnCanva.localScale = Vector3.one * ((cam.position - tarLoc).magnitude * crossHair_Scale);
+
+        enemyTarget_Locator.position = tarLoc;
+        Vector3 dir = currentTarget.position - transform.position;
+        dir.y = 0;
+        Quaternion rot = Quaternion.LookRotation(dir);
+        transform.rotation = Quaternion.Lerp(transform.rotation, rot, Time.deltaTime * lookAtSmoothing);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(transform.position, noticeZone);
     }
 
     bool Blocked()
     {
         RaycastHit hit;
-        if()
+        if(Physics.Linecast(transform.position + Vector3.up * 0.5f, tarLoc, out hit))
+        {
+            if(!hit.transform.CompareTag("Tengu")) return true;
+        }
+        return false;
+    }
+
+    bool TargetOnRange()
+    {
+        float dis = (transform.position - tarLoc).magnitude;
+        if(dis/2 > noticeZone) return false; else return true;
     }
 }
