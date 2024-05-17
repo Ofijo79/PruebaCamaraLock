@@ -96,7 +96,7 @@ public class Isometriccontroller : MonoBehaviour
 
         Jump();
 
-        if(Input.GetKeyDown("e") && _resistance.actualResistance > 9)
+        if(Input.GetButtonDown("Fire1") && _resistance.actualResistance > 9)
         {
             Combo();
         }
