@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1015045394785190619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8373635502147748588}
+  - component: {fileID: 187203004737503100}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8373635502147748588
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015045394785190619}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.70710576, z: -0, w: 0.70710784}
+  m_LocalPosition: {x: 9.0676565, y: 1.0643564, z: -0.08309308}
+  m_LocalScale: {x: 2.7502751, y: 2.7502751, z: 2.7502751}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &187203004737503100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015045394785190619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621a02f13860ba5458f27d8c4067c405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - parentName: BulletPooll
+    prefab: {fileID: 4447621259241396862, guid: 8495f1f242b8d5f4096959207fe2fda7, type: 3}
+    poolSize: 20
+    poolObjects: []
+  - parentName: GranadePool
+    prefab: {fileID: 4447621259241396862, guid: a9bcd98f900ef034ca6c9434b2560285, type: 3}
+    poolSize: 10
+    poolObjects: []
