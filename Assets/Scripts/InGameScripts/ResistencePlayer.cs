@@ -28,12 +28,15 @@ public class ResistencePlayer : MonoBehaviour
     public float enhancedVelocityRegeneration = 2.0f;
 
     Isometriccontroller run;
+
+    Animator _animator;
     // Start is called before the first frame update
     void Start()
     {
         actualResistance = resistenceInitial;
         ActualizeResistance();
         run = GameObject.Find("KenjiroIdle").GetComponent<Isometriccontroller>();
+        _animator = run.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -46,10 +49,15 @@ public class ResistencePlayer : MonoBehaviour
 
     public void takeResistance()
     {
-        actualResistance -= resistenceXHit;
-        actualResistance = Mathf.Max(0, actualResistance);
-        ActualizeResistance();
-        ResetTime();
+        if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") ||
+            _animator.GetCurrentAnimatorStateInfo(0).IsName("Attack2") ||
+            _animator.GetCurrentAnimatorStateInfo(0).IsName("Attack3") )
+        {
+            actualResistance -= resistenceXHit;
+            actualResistance = Mathf.Max(0, actualResistance);
+            ActualizeResistance();
+            ResetTime();
+        }
     }
     
     public void dashResistance()

@@ -179,7 +179,7 @@ public class Isometriccontroller : MonoBehaviour
             canClick = true;
             buttonQuantity = 0;            
         }
-        else if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && buttonQuantity >= 2)
+        if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && buttonQuantity >= 2)
         {
             _animator.SetInteger("attack", 2);
             canClick = true;
