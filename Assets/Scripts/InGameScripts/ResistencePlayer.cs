@@ -75,7 +75,7 @@ public class ResistencePlayer : MonoBehaviour
 
     public void MovementRes()
     {
-        if (Input.GetKey(KeyCode.LeftShift) && actualResistance > 0 && run.direction != Vector3.zero)
+        if (Input.GetButton("Sprint") && actualResistance > 0 && run.direction != Vector3.zero)
         {
             actualResistance -= velocityRunning * Time.deltaTime;
             ActualizeResistance();

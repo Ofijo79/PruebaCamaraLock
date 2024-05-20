@@ -91,7 +91,7 @@ public class Isometriccontroller : MonoBehaviour
         
         Movement();
 
-        if(Input.GetKey(KeyCode.LeftShift) && _resistance.actualResistance > 1)
+        if(Input.GetButton("Sprint") && _resistance.actualResistance > 1)
         {
             Sprint();
         }
@@ -107,7 +107,7 @@ public class Isometriccontroller : MonoBehaviour
             StopAttack();
         }*/
 
-        if(Input.GetKey("r"))
+        if(Input.GetButton("Fire2"))
         {
             if(direction != Vector3.zero)
             {
@@ -119,18 +119,18 @@ public class Isometriccontroller : MonoBehaviour
             }
             
         }
-        if(Input.GetKeyUp("r"))
+        if(Input.GetButtonUp("Fire2"))
         {
             DontBlock();
         }
 
-        if (!isDashing && Input.GetKeyDown("z") && _resistance.actualResistance > 20)
+        if (!isDashing && Input.GetButton("Dash") && _resistance.actualResistance > 20)
         {
             StartCoroutine(PerformDash());
             _resistance.dashResistance();
         }
 
-        if (_isGrounded && direction != Vector3.zero && Input.GetKey(KeyCode.LeftShift))
+        if (_isGrounded && direction != Vector3.zero && Input.GetButton("Sprint"))
         {
             if (!walk.IsPlaying("caminar"))
             {
