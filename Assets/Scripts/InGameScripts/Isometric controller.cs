@@ -63,6 +63,8 @@ public class Isometriccontroller : MonoBehaviour
     public bool lockMovement;
     HealthPlayer heal;
     CalabazaCurativa contador;
+    public GameObject katana;
+    public bool isHealing = false;
 
 
     // Start is called before the first frame update
@@ -103,8 +105,14 @@ public class Isometriccontroller : MonoBehaviour
 
         if(Input.GetButton("Heal"))
         {
-            heal.Curar();
-            contador.RestarCalabaza();
+            if(direction != Vector3.zero)
+            {
+                WalkingHeal();
+            }
+            else
+            {
+                Heal();
+            }
         }
 
         Jump();
@@ -164,6 +172,42 @@ public class Isometriccontroller : MonoBehaviour
             Debug.Log("Hit" + enemy.name);
         }
     }*/
+
+    void Heal()
+    {
+        isHealing = true;
+        katana.SetActive(false);
+        heal.Curar();
+        contador.RestarCalabaza();
+        _animator.SetBool("IsHealing", true);
+        _playerSpeed = 2;
+        StartCoroutine(WaitForHealAnimation());
+    }
+
+    void WalkingHeal()
+    {
+        isHealing = true;
+        katana.SetActive(false);
+        heal.Curar();
+        contador.RestarCalabaza();
+        _animator.SetBool("IsHealing", true);
+        _playerSpeed = 2;
+        StartCoroutine(WaitForHealAnimation());
+    }
+
+    void DontHeal()
+    {
+        isHealing = false;
+        katana.SetActive(true);
+        _animator.SetBool("IsHealing", false);
+        _animator.SetBool("WalkingHeal", false);
+        _playerSpeed = 7;
+    }
+    IEnumerator WaitForHealAnimation()
+    {
+        yield return new WaitForSeconds(2.20f);
+        DontHeal();
+    }
 
     void Combo()
     {
