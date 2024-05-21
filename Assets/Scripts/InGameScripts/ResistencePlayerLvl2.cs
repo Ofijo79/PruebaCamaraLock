@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ResistencePlayer : MonoBehaviour
+public class ResistencePlayerLvl2 : MonoBehaviour
 {
 
     public float resistenceInitial = 100f;
@@ -27,7 +27,7 @@ public class ResistencePlayer : MonoBehaviour
     
     public float enhancedVelocityRegeneration = 2.0f;
 
-    IsometriccontrollerLvl1 run;
+    Isometriccontroller run;
 
     Animator _animator;
     // Start is called before the first frame update
@@ -35,7 +35,7 @@ public class ResistencePlayer : MonoBehaviour
     {
         actualResistance = resistenceInitial;
         ActualizeResistance();
-        run = GameObject.Find("KenjiroIdle").GetComponent<IsometriccontrollerLvl1>();
+        run = GameObject.Find("KenjiroIdle").GetComponent<Isometriccontroller>();
         _animator = run.GetComponent<Animator>();
     }
 

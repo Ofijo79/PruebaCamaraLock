@@ -22,6 +22,8 @@ public class HealthPlayerLvl2 : MonoBehaviour
     SFXManager sfx;
 
     Animator _animator;
+
+    float heal = 15;
     // Start is called before the first frame update
     void Start()
     {
@@ -73,6 +75,7 @@ public class HealthPlayerLvl2 : MonoBehaviour
             Die();
         }
     }
+
     public void GetDamageBullet()
     {
         health -= damageAmountBullet;
@@ -91,8 +94,17 @@ public class HealthPlayerLvl2 : MonoBehaviour
         if(health <= 0)
         {
             Die();
-            sfx.DeathSound();
         }
+    }
+
+    public void Curar()
+    {
+        health += heal;
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
+        ActualHealth();
     }
 
     void Die()

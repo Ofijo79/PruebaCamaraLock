@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
 
-public class Isometriccontroller : MonoBehaviour
+public class IsometriccontrollerLvl1 : MonoBehaviour
 {
     //Movimiento y Animaciones
     CharacterController _controller;
@@ -53,7 +53,7 @@ public class Isometriccontroller : MonoBehaviour
     public bool isDashing = false;
 
     //Resistencia
-    private ResistencePlayerLvl2 _resistance;
+    private ResistencePlayer _resistance;
 
     //Sonidos
     WalkSound walk;
@@ -61,7 +61,7 @@ public class Isometriccontroller : MonoBehaviour
     SFXManager sfx;
 
     public bool lockMovement;
-    HealthPlayerLvl2 heal;
+    HealthPlayer heal;
     Curacion contador;
     public GameObject katana;
     public GameObject cura;
@@ -74,7 +74,7 @@ public class Isometriccontroller : MonoBehaviour
         _controller = GetComponent<CharacterController>();
         _animator = GetComponent<Animator>();
         _lookAtTransform = GameObject.Find("LookAt").transform;
-        _resistance = GetComponent<ResistencePlayerLvl2>();
+        _resistance = GetComponent<ResistencePlayer>();
         _camera = Camera.main.transform;
         buttonQuantity = 0;
         canClick = true;
@@ -86,7 +86,7 @@ public class Isometriccontroller : MonoBehaviour
 
         sfx = GameObject.Find("SFX").GetComponent<SFXManager>();
 
-        heal = GetComponent<HealthPlayerLvl2>();
+        heal = GetComponent<HealthPlayer>();
         contador = GetComponent<Curacion>();
     }
 
@@ -106,7 +106,7 @@ public class Isometriccontroller : MonoBehaviour
 
         if(Input.GetButton("Fire3"))
         {
-            Heal();   
+            Heal();
         }
 
         Jump();
