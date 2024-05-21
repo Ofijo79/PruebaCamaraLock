@@ -61,6 +61,8 @@ public class Isometriccontroller : MonoBehaviour
     SFXManager sfx;
 
     public bool lockMovement;
+    HealthPlayer heal;
+    CalabazaCurativa contador;
 
 
     // Start is called before the first frame update
@@ -80,6 +82,9 @@ public class Isometriccontroller : MonoBehaviour
         walk = GameObject.Find("WalkSound").GetComponent<WalkSound>();
 
         sfx = GameObject.Find("SFX").GetComponent<SFXManager>();
+
+        heal = GetComponent<HealthPlayer>();
+        contador = GameObject.Find("Botella_Calabaza").GetComponent<CalabazaCurativa>();
     }
 
     // Update is called once per frame
@@ -94,6 +99,12 @@ public class Isometriccontroller : MonoBehaviour
         if(Input.GetButton("Sprint") && _resistance.actualResistance > 1)
         {
             Sprint();
+        }
+
+        if(Input.GetButton("Heal"))
+        {
+            heal.Curar();
+            contador.RestarCalabaza();
         }
 
         Jump();
@@ -164,8 +175,14 @@ public class Isometriccontroller : MonoBehaviour
         if(buttonQuantity == 1 && _resistance.actualResistance > 0)
         {
             _animator.SetInteger("attack", 1);
-            _resistance.takeResistance();
+            //_resistance.takeResistance();
             sfx.SwordSound();
+        }
+        else if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && buttonQuantity == 1)
+        {
+            _animator.SetInteger("attack", 0);
+            canClick = true;
+            buttonQuantity = 0;            
         }
     }
 
@@ -183,7 +200,7 @@ public class Isometriccontroller : MonoBehaviour
         {
             _animator.SetInteger("attack", 2);
             canClick = true;
-            _resistance.takeResistance();
+            //_resistance.takeResistance();
             sfx.SwordSound();
         }
         else if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack2") && buttonQuantity == 2)
@@ -196,7 +213,7 @@ public class Isometriccontroller : MonoBehaviour
         {
             _animator.SetInteger("attack", 3);
             canClick = true;
-            _resistance.takeResistance();
+            //_resistance.takeResistance();
             sfx.SwordSound();
         }
         else if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack3"))

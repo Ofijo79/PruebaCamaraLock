@@ -22,6 +22,8 @@ public class HealthPlayer : MonoBehaviour
     SFXManager sfx;
 
     Animator _animator;
+
+    float heal = 15;
     // Start is called before the first frame update
     void Start()
     {
@@ -93,6 +95,16 @@ public class HealthPlayer : MonoBehaviour
         {
             Die();
         }
+    }
+
+    public void Curar()
+    {
+        health += heal;
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
+        ActualHealth();
     }
 
     void Die()
