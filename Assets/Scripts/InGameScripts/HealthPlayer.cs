@@ -15,7 +15,7 @@ public class HealthPlayer : MonoBehaviour
 
     public Slider healthSlider;
 
-    Isometriccontroller dash;
+    IsometriccontrollerLvl1 dash;
 
     MenuManagement death;
 
@@ -27,7 +27,7 @@ public class HealthPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dash = GetComponent<Isometriccontroller>();
+        dash = GetComponent<IsometriccontrollerLvl1>();
         death = GameObject.Find("MenuManagement").GetComponent<MenuManagement>();
         sfx = GameObject.Find("SFX").GetComponent<SFXManager>();
         _animator = GetComponent<Animator>();

@@ -63,8 +63,8 @@ public class IsometriccontrollerLvl1 : MonoBehaviour
     public bool lockMovement;
     HealthPlayer heal;
     Curacion contador;
-    public GameObject katana;
-    public GameObject cura;
+    //public GameObject katana;
+    //public GameObject cura;
     public bool isHealing = false;
 
 
@@ -169,19 +169,22 @@ public class IsometriccontrollerLvl1 : MonoBehaviour
 
     void Heal()
     {
-        isHealing = true;
-        cura.SetActive(true);
-        katana.SetActive(false);
-        heal.Curar();
-        contador.RestarCalabaza();
-        _playerSpeed = 2;
-        StartCoroutine(WaitForHealAnimation());
+        if(contador.contador > 0)
+        {
+            isHealing = true;
+            //cura.SetActive(true);
+            //katana.SetActive(false);
+            heal.Curar();
+            contador.RestarCalabaza();
+            _playerSpeed = 2;
+            StartCoroutine(WaitForHealAnimation());
+        }
     }
     IEnumerator WaitForHealAnimation()
     {
         yield return new WaitForSeconds(2.2f);
-        cura.SetActive(false);
-        katana.SetActive(true);
+        //cura.SetActive(false);
+        //katana.SetActive(true);
     }
 
     void Combo()
