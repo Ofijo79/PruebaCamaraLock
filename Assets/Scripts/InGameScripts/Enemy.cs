@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class Enemy : MonoBehaviour
 {
     public int maxHealth = 50;
-    [SerializeField] float health = 50;
+    [SerializeField]float health = 50;
     float damageAmount = 10;
 
     public Slider healthSlider;
     GameObject player;
 
-    bool isDead = false;
+    public bool isDead = false;
     float fadeDuration = 1.0f;
     Renderer renderer;
 

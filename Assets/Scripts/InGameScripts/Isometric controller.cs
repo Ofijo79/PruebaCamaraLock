@@ -200,7 +200,7 @@ public class Isometriccontroller : MonoBehaviour
         if(buttonQuantity == 1 && _resistance.actualResistance > 0)
         {
             _animator.SetInteger("attack", 1);
-            //_resistance.takeResistance();
+            _resistance.takeResistance();
             sfx.SwordSound();
         }
         else if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && buttonQuantity == 1)
