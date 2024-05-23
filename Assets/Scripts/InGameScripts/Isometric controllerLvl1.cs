@@ -67,6 +67,9 @@ public class IsometriccontrollerLvl1 : MonoBehaviour
     //public GameObject cura;
     public bool isHealing = false;
 
+    public GameObject particle;
+    public GameObject particle2;
+
 
     // Start is called before the first frame update
     void Start()
@@ -104,7 +107,7 @@ public class IsometriccontrollerLvl1 : MonoBehaviour
             Sprint();
         }
 
-        if(Input.GetButton("Fire3"))
+        if(Input.GetButtonDown("Fire3"))
         {
             Heal();
         }
@@ -172,8 +175,8 @@ public class IsometriccontrollerLvl1 : MonoBehaviour
         if(contador.contador > 0)
         {
             isHealing = true;
-            //cura.SetActive(true);
-            //katana.SetActive(false);
+            particle.SetActive(true);
+            particle2.SetActive(true);
             heal.Curar();
             contador.RestarCalabaza();
             _playerSpeed = 2;
@@ -183,8 +186,8 @@ public class IsometriccontrollerLvl1 : MonoBehaviour
     IEnumerator WaitForHealAnimation()
     {
         yield return new WaitForSeconds(2.2f);
-        //cura.SetActive(false);
-        //katana.SetActive(true);
+        particle.SetActive(false);
+        particle2.SetActive(false);
     }
 
     void Combo()
