@@ -23,6 +23,8 @@ public class HealthPlayer : MonoBehaviour
 
     Animator _animator;
 
+    public GameObject Blanco;
+
     float heal = 15;
     // Start is called before the first frame update
     void Start()
@@ -122,6 +124,7 @@ public class HealthPlayer : MonoBehaviour
 
     IEnumerator DeathRoutine()
     {
+        Blanco.SetActive(true);
         // Espera 2 segundos
         yield return new WaitForSeconds(4f);
 

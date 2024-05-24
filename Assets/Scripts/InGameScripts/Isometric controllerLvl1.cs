@@ -185,7 +185,7 @@ public class IsometriccontrollerLvl1 : MonoBehaviour
     }
     IEnumerator WaitForHealAnimation()
     {
-        yield return new WaitForSeconds(2.2f);
+        yield return new WaitForSeconds(4f);
         particle.SetActive(false);
         particle2.SetActive(false);
     }
