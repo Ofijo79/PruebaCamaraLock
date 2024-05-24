@@ -82,7 +82,7 @@ public class EnemyIA : MonoBehaviour
             break;
 
             case State.Attacking:
-                Attacking();
+                FirstAttack();
             break;
         }
     }
@@ -169,7 +169,7 @@ public class EnemyIA : MonoBehaviour
         repeat = true;
     }
     
-    void Attacking()
+    /*void Attacking()
     {
         DetenerMovimiento();
         _animator.SetBool("TenguStop", false);
@@ -177,7 +177,7 @@ public class EnemyIA : MonoBehaviour
         _animator.SetInteger("enemyAttack", 1);
 
         StartCoroutine(WaitForAttackAnimation());
-    }
+    }*/
 
     void DetenerMovimiento()
     {
@@ -206,6 +206,16 @@ public class EnemyIA : MonoBehaviour
         {
             currentState = State.Chasing;
         }
+    }
+
+    void FirstAttack()
+    {
+        DetenerMovimiento();
+        _animator.SetBool("TenguStop", false);
+        _animator.SetBool("TenguPatrolling", false);
+        _animator.SetInteger("enemyAttack", 1);
+
+        StartCoroutine(WaitForAttackAnimation());
     }
 
     void SecondAttack()
@@ -248,13 +258,13 @@ public class EnemyIA : MonoBehaviour
     IEnumerator WaitForThirdAttackAnimation()
     {
         // Esperar hasta que la animación de ataque termine
-        yield return new WaitForSeconds(_animator.GetCurrentAnimatorClipInfo(0).Length);
+        yield return new WaitForSeconds(6f);
         ReanudarMovimiento();
 
         // Verificar si el enemigo sigue dentro del rango de ataque después de la animación
         if (OnRangeAttack())
         {
-            Attacking();
+            FirstAttack();
         }
         else
         {

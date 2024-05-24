@@ -26,6 +26,8 @@ public class HealthPlayerLvl2 : MonoBehaviour
     public GameObject Blanco;
 
     float heal = 15;
+
+    public GameObject damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -80,6 +82,8 @@ public class HealthPlayerLvl2 : MonoBehaviour
 
     public void GetDamageBullet()
     {
+        damage.SetActive(true);
+        StartCoroutine(WaitHit());
         health -= damageAmountBullet;
         ActualHealth();
         if(health <= 0)
@@ -90,6 +94,8 @@ public class HealthPlayerLvl2 : MonoBehaviour
 
     public void GetDamage()
     {
+        damage.SetActive(true);
+        StartCoroutine(WaitHit());
         health -= damageAmount;
         sfx.GetHit();
         ActualHealth();
@@ -97,6 +103,12 @@ public class HealthPlayerLvl2 : MonoBehaviour
         {
             Die();
         }
+    }
+
+    IEnumerator WaitHit()
+    {
+        yield return new WaitForSeconds(2f);
+        damage.SetActive(false);
     }
 
     public void Curar()

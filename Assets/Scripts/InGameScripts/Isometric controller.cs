@@ -203,12 +203,12 @@ public class Isometriccontroller : MonoBehaviour
             _resistance.takeResistance();
             sfx.SwordSound();
         }
-        else if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && buttonQuantity == 1)
+        /*else if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && buttonQuantity == 1)
         {
             _animator.SetInteger("attack", 0);
             canClick = true;
             buttonQuantity = 0;            
-        }
+        }*/
     }
 
     public void ComboVerification()
