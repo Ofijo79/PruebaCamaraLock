@@ -10,7 +10,8 @@ public class EnemyIA : MonoBehaviour
         Chasing,
         Searching,
         Waiting,
-        Attacking
+        Attacking,
+        Combo
     }
 
     State currentState;
@@ -163,7 +164,7 @@ public class EnemyIA : MonoBehaviour
         _animator.SetBool("TenguPatrolling", false);
         _animator.SetBool("TenguStop", true);
         repeat = false;
-        yield return new WaitForSeconds (5);
+        yield return new WaitForSeconds (1f);
         GotoNextPoint();
         currentState = State.Patrolling;  
         repeat = true;
@@ -194,7 +195,7 @@ public class EnemyIA : MonoBehaviour
     IEnumerator WaitForAttackAnimation()
     {
         // Esperar hasta que la animación de ataque termine
-        yield return new WaitForSeconds(_animator.GetCurrentAnimatorClipInfo(0).Length);
+        yield return new WaitForSeconds(1f);
         ReanudarMovimiento();
 
         // Verificar si el enemigo sigue dentro del rango de ataque después de la animación
@@ -215,6 +216,8 @@ public class EnemyIA : MonoBehaviour
         _animator.SetBool("TenguPatrolling", false);
         _animator.SetInteger("enemyAttack", 1);
 
+        currentState = State.Combo;
+
         StartCoroutine(WaitForAttackAnimation());
     }
 
@@ -231,7 +234,7 @@ public class EnemyIA : MonoBehaviour
     IEnumerator WaitForSecondAttackAnimation()
     {
         // Esperar hasta que la animación de ataque termine
-        yield return new WaitForSeconds(_animator.GetCurrentAnimatorClipInfo(0).Length);
+        yield return new WaitForSeconds(1f);
         ReanudarMovimiento();
 
         // Verificar si el enemigo sigue dentro del rango de ataque después de la animación
@@ -258,7 +261,7 @@ public class EnemyIA : MonoBehaviour
     IEnumerator WaitForThirdAttackAnimation()
     {
         // Esperar hasta que la animación de ataque termine
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(2f);
         ReanudarMovimiento();
 
         // Verificar si el enemigo sigue dentro del rango de ataque después de la animación
