@@ -82,8 +82,8 @@ public class IsometriccontrollerLvl1 : MonoBehaviour
         buttonQuantity = 0;
         canClick = true;
 
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+        //Cursor.lockState = CursorLockMode.Locked;
 
         walk = GameObject.Find("WalkSound").GetComponent<WalkSound>();
 
