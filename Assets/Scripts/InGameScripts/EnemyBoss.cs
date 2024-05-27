@@ -7,7 +7,8 @@ public class EnemyBoss : MonoBehaviour
     enum State
     {
         Chasing,
-        Attacking
+        Attacking,
+        Combo
     }
 
     State currentState;
@@ -65,6 +66,7 @@ public class EnemyBoss : MonoBehaviour
         DetenerMovimiento();
         _animator.SetBool("Run", false);
         _animator.SetInteger("attack", 1);
+        currentState = State.Combo;
 
         StartCoroutine(WaitForAttackAnimation());
     }
@@ -81,7 +83,7 @@ public class EnemyBoss : MonoBehaviour
 
     IEnumerator WaitForAttackAnimation()
     {
-        yield return new WaitForSeconds(_animator.GetCurrentAnimatorClipInfo(0).Length);
+        yield return new WaitForSeconds(1f);
         ReanudarMovimiento();
 
         if (OnRangeAttack())
@@ -99,13 +101,14 @@ public class EnemyBoss : MonoBehaviour
         DetenerMovimiento();
         _animator.SetBool("Run", false);
         _animator.SetInteger("attack", 2);
+        currentState = State.Combo;
 
         StartCoroutine(WaitForSecondAttackAnimation());
     }
 
     IEnumerator WaitForSecondAttackAnimation()
     {
-        yield return new WaitForSeconds(_animator.GetCurrentAnimatorClipInfo(0).Length);
+        yield return new WaitForSeconds(1f);
         ReanudarMovimiento();
 
         if (OnRangeAttack())

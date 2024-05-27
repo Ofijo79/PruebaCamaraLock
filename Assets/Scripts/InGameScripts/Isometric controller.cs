@@ -99,7 +99,7 @@ public class Isometriccontroller : MonoBehaviour
         _horizontal = Input.GetAxisRaw("Horizontal");
         _vertical = Input.GetAxisRaw("Vertical");
         direction = new Vector3(_horizontal, 0, _vertical);
-        
+        canClick = true;
         Movement();
 
         if(Input.GetButton("Sprint") && _resistance.actualResistance > 1)

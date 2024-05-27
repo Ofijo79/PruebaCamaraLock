@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 1.1355268, g: 0.5346084, b: 0.12501575, a: 1}
+  m_IndirectSpecularColor: {r: 1.1343404, g: 0.53352934, b: 0.12451993, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -49082,7 +49082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CollideAgainst:
     serializedVersion: 2
-    m_Bits: 9
+    m_Bits: 4096
   m_IgnoreTag: Player
   m_TransparentLayers:
     serializedVersion: 2
@@ -58460,6 +58460,59 @@ Transform:
   - {fileID: 739080023}
   m_Father: {fileID: 1455730804}
   m_LocalEulerAnglesHint: {x: 4.8894835, y: 39.254547, z: -63.226315}
+--- !u!1 &1748047427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1748047428}
+  - component: {fileID: 1748047429}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1748047428
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748047427}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -197.8, y: -3.901, z: -68.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1821034440}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1748047429
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748047427}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 7.481064, y: 1, z: 5.56094}
+  m_Center: {x: -0.64217377, y: 0, z: 0.60377693}
 --- !u!65 &1749155656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60461,6 +60514,7 @@ Transform:
   - {fileID: 1892503243}
   - {fileID: 1459243734}
   - {fileID: 1211031543}
+  - {fileID: 1748047428}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1821837069
@@ -68081,7 +68135,7 @@ GameObject:
   - component: {fileID: 8852177266293290586}
   - component: {fileID: 3675512475347103046}
   - component: {fileID: 8852177266293290587}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68758,7 +68812,7 @@ GameObject:
   - component: {fileID: 1022479015006031307}
   - component: {fileID: 3924194175342439112}
   - component: {fileID: 3924194175342439113}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68878,7 +68932,7 @@ GameObject:
   - component: {fileID: 7698002754166974229}
   - component: {fileID: 8110214466213437373}
   - component: {fileID: 8378108391568727197}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Dos.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68981,7 +69035,7 @@ GameObject:
   - component: {fileID: 2115368514082226009}
   - component: {fileID: 5170799656695784417}
   - component: {fileID: 5170799656695784418}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Entrada_Sucia.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70370,7 +70424,7 @@ GameObject:
   - component: {fileID: 7619659103547844460}
   - component: {fileID: 1956015481582347358}
   - component: {fileID: 7619659103547844461}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70731,7 +70785,7 @@ GameObject:
   - component: {fileID: 2338101905515829814}
   - component: {fileID: 2201969061196069726}
   - component: {fileID: 7067216109523191453}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Uno.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70765,7 +70819,7 @@ GameObject:
   - component: {fileID: 1038646439545176663}
   - component: {fileID: 5794169184801877512}
   - component: {fileID: 5794169184801877513}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70784,7 +70838,7 @@ GameObject:
   - component: {fileID: 7579670679549590233}
   - component: {fileID: 1316667504205830309}
   - component: {fileID: 9151161865063425721}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73187,7 +73241,7 @@ GameObject:
   - component: {fileID: 8025333232465428554}
   - component: {fileID: 6727460251666207214}
   - component: {fileID: 8025333232465428555}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.051
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73280,7 +73334,7 @@ GameObject:
   - component: {fileID: 7566242650952257304}
   - component: {fileID: 6048868585265029598}
   - component: {fileID: 7566242650952257305}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.064
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73379,7 +73433,7 @@ GameObject:
   - component: {fileID: 4053102460001719426}
   - component: {fileID: 3273282681295937809}
   - component: {fileID: 4053102460001719427}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73414,7 +73468,7 @@ GameObject:
   - component: {fileID: 2432934126828878375}
   - component: {fileID: 3253236074619778730}
   - component: {fileID: 8209772275920813122}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.052
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73659,7 +73713,7 @@ GameObject:
   - component: {fileID: 3214397465358349203}
   - component: {fileID: 160296086999716580}
   - component: {fileID: 8052149639643110308}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Uno.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73760,7 +73814,7 @@ GameObject:
   - component: {fileID: 3024288604566051547}
   - component: {fileID: 9049399945437613510}
   - component: {fileID: 9049399945437613511}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.060
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77205,7 +77259,7 @@ GameObject:
   - component: {fileID: 4092645153450253611}
   - component: {fileID: 5496304817928682747}
   - component: {fileID: 5496304817928682748}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77375,7 +77429,7 @@ GameObject:
   - component: {fileID: 7678681509925393907}
   - component: {fileID: 1710111393081981153}
   - component: {fileID: 7678681509925393908}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Cuatro.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77617,7 +77671,7 @@ GameObject:
   - component: {fileID: 889166269483479390}
   - component: {fileID: 6676779952560956610}
   - component: {fileID: 6676779952560956611}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78657,7 +78711,7 @@ GameObject:
   - component: {fileID: 6215717724238794740}
   - component: {fileID: 7234836063004633774}
   - component: {fileID: 7234836063004633775}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Dos.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79911,7 +79965,7 @@ GameObject:
   - component: {fileID: 5012698714934517411}
   - component: {fileID: 2513893280466679087}
   - component: {fileID: 5012698714934517412}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.056
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80549,7 +80603,7 @@ GameObject:
   - component: {fileID: 4680765049420177848}
   - component: {fileID: 501391329182999034}
   - component: {fileID: 4680765049420177849}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Uno.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81048,7 +81102,7 @@ GameObject:
   - component: {fileID: 307170351102731521}
   - component: {fileID: 5652339293227569813}
   - component: {fileID: 7797331324723378241}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Uno.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81208,7 +81262,7 @@ GameObject:
   - component: {fileID: 6454594630666480717}
   - component: {fileID: 58128397284055966}
   - component: {fileID: 6454594630666480718}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82608,7 +82662,7 @@ GameObject:
   - component: {fileID: 7710802787243134196}
   - component: {fileID: 484198940189859257}
   - component: {fileID: 7710802787243134197}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.063
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83157,7 +83211,7 @@ GameObject:
   - component: {fileID: 954593561832184326}
   - component: {fileID: 454577376449140527}
   - component: {fileID: 5854289535075212329}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Suelo.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83191,7 +83245,7 @@ GameObject:
   - component: {fileID: 402553785896123167}
   - component: {fileID: 2724764305262548245}
   - component: {fileID: 4915750155680722398}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Dos.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83460,7 +83514,7 @@ GameObject:
   - component: {fileID: 6570564278301041465}
   - component: {fileID: 2026695924336615354}
   - component: {fileID: 6570564278301041466}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83845,7 +83899,7 @@ GameObject:
   - component: {fileID: 5970640469780345924}
   - component: {fileID: 6633118340940766043}
   - component: {fileID: 6633118340940766044}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84010,7 +84064,7 @@ GameObject:
   - component: {fileID: 1206283996082744614}
   - component: {fileID: 5677586829721110972}
   - component: {fileID: 8267870448318853541}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84056,7 +84110,7 @@ GameObject:
   - component: {fileID: 5348063892708061901}
   - component: {fileID: 4671844646364188766}
   - component: {fileID: 5348063892708061902}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84209,7 +84263,7 @@ GameObject:
   - component: {fileID: 970868795442587942}
   - component: {fileID: 7981310186928195410}
   - component: {fileID: 7981310186928195411}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.050
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84327,7 +84381,7 @@ GameObject:
   - component: {fileID: 1123970277937481529}
   - component: {fileID: 1361818603606738174}
   - component: {fileID: 4791841657382251184}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Techo.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84398,7 +84452,7 @@ GameObject:
   - component: {fileID: 4088459877299475879}
   - component: {fileID: 3123318158818232006}
   - component: {fileID: 5614061053515832846}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84417,7 +84471,7 @@ GameObject:
   - component: {fileID: 7932382077635507409}
   - component: {fileID: 7421801687820727303}
   - component: {fileID: 8440579977405096558}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Tres.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84468,7 +84522,7 @@ GameObject:
   - component: {fileID: 3819219572224863003}
   - component: {fileID: 5194188747335418919}
   - component: {fileID: 5194188747335418920}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84901,7 +84955,7 @@ GameObject:
   - component: {fileID: 859597195900246558}
   - component: {fileID: 157258469208055210}
   - component: {fileID: 6254459173765796053}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85210,7 +85264,7 @@ GameObject:
   - component: {fileID: 2404290522609797994}
   - component: {fileID: 360618522669850438}
   - component: {fileID: 9025360545088013970}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.057
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85356,7 +85410,7 @@ GameObject:
   - component: {fileID: 4672654759896389831}
   - component: {fileID: 3618487568635166143}
   - component: {fileID: 5314943395455566343}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.058
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85397,7 +85451,7 @@ GameObject:
   - component: {fileID: 1831925883941091502}
   - component: {fileID: 4783364094723809041}
   - component: {fileID: 5338031995546383756}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85468,7 +85522,7 @@ GameObject:
   - component: {fileID: 7581171075277895466}
   - component: {fileID: 186208503360987267}
   - component: {fileID: 7581171075277895467}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Suelo.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85505,7 +85559,7 @@ GameObject:
   - component: {fileID: 5558600520628962327}
   - component: {fileID: 6590327448054827679}
   - component: {fileID: 8629631142675768052}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Cuatro.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85756,7 +85810,7 @@ GameObject:
   - component: {fileID: 4648771806502767229}
   - component: {fileID: 8197208503848074885}
   - component: {fileID: 8197208503848074886}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.062
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86110,7 +86164,7 @@ GameObject:
   - component: {fileID: 5287488609365045758}
   - component: {fileID: 6826114615532394114}
   - component: {fileID: 6826114615532394115}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Suelo.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86468,7 +86522,7 @@ GameObject:
   - component: {fileID: 5882299062453434744}
   - component: {fileID: 2992223380004315160}
   - component: {fileID: 5967257462632113108}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86517,7 +86571,7 @@ GameObject:
   - component: {fileID: 2103900020869650226}
   - component: {fileID: 3801408803965102896}
   - component: {fileID: 5994372149805967533}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87363,7 +87417,7 @@ GameObject:
   - component: {fileID: 2859642603366532296}
   - component: {fileID: 1644426905868295591}
   - component: {fileID: 6260502994981858213}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Uno.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87789,7 +87843,7 @@ GameObject:
   - component: {fileID: 5528763019143009974}
   - component: {fileID: 2721891051378902896}
   - component: {fileID: 6615726339217361903}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88054,7 +88108,7 @@ GameObject:
   - component: {fileID: 3048724595016972089}
   - component: {fileID: 2437856755986716986}
   - component: {fileID: 6681091266441209056}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.053
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88401,7 +88455,7 @@ GameObject:
   - component: {fileID: 5911227834702479120}
   - component: {fileID: 5192809047579025294}
   - component: {fileID: 6780431759905041278}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88844,7 +88898,7 @@ GameObject:
   - component: {fileID: 7193131867555941339}
   - component: {fileID: 2472439502600018111}
   - component: {fileID: 7193131867555941340}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Tres.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88868,7 +88922,7 @@ GameObject:
   - component: {fileID: 8448132968509136500}
   - component: {fileID: 158604998416431620}
   - component: {fileID: 8448132968509136501}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Dos.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88966,7 +89020,7 @@ GameObject:
   - component: {fileID: 1878665315523256003}
   - component: {fileID: 6716065424703032566}
   - component: {fileID: 7093706491722158455}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89023,7 +89077,7 @@ GameObject:
   - component: {fileID: 5715121477280291735}
   - component: {fileID: 4773937139318734661}
   - component: {fileID: 7107176545262201379}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.061
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90315,7 +90369,7 @@ GameObject:
   - component: {fileID: 5248648850183967487}
   - component: {fileID: 5816474679201618542}
   - component: {fileID: 7598568704128658663}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Techo.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90447,7 +90501,7 @@ GameObject:
   - component: {fileID: 1827469882957939209}
   - component: {fileID: 6702986166245598384}
   - component: {fileID: 7674211610440712377}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90518,7 +90572,7 @@ GameObject:
   - component: {fileID: 3349024778129588519}
   - component: {fileID: 2264232494756821863}
   - component: {fileID: 7681040317271028674}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Tres.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90651,7 +90705,7 @@ GameObject:
   - component: {fileID: 6793842683244966516}
   - component: {fileID: 4754397360795435024}
   - component: {fileID: 8330366480814899624}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Techo.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91029,7 +91083,7 @@ GameObject:
   - component: {fileID: 8918816053611532302}
   - component: {fileID: 3091633635960660776}
   - component: {fileID: 8918816053611532303}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.059
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92017,7 +92071,7 @@ GameObject:
   - component: {fileID: 4427369228702661797}
   - component: {fileID: 5927212842754296466}
   - component: {fileID: 8504740551970530646}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Sucia_Dos.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92090,7 +92144,7 @@ GameObject:
   - component: {fileID: 3293765513966431850}
   - component: {fileID: 653031493233711441}
   - component: {fileID: 8560738626789993182}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Techo.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92168,7 +92222,7 @@ GameObject:
   - component: {fileID: 2812683592973948261}
   - component: {fileID: 2768286120454086814}
   - component: {fileID: 8645376113067876417}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Suelo.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92515,7 +92569,7 @@ GameObject:
   - component: {fileID: 6089936716893197713}
   - component: {fileID: 4762308622736124480}
   - component: {fileID: 8719384216206193006}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92556,7 +92610,7 @@ GameObject:
   - component: {fileID: 6231466113627560955}
   - component: {fileID: 5172961437664362079}
   - component: {fileID: 8722148289573994804}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92781,7 +92835,7 @@ GameObject:
   - component: {fileID: 5455514909618234416}
   - component: {fileID: 7609798650829870456}
   - component: {fileID: 8810304843349736694}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Puerta.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92992,7 +93046,7 @@ GameObject:
   - component: {fileID: 977814720552264340}
   - component: {fileID: 5576955898540955061}
   - component: {fileID: 8975670851710405273}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Pared_Rota_Dos.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93228,7 +93282,7 @@ GameObject:
   - component: {fileID: 3637293832971305258}
   - component: {fileID: 8396374918318604281}
   - component: {fileID: 9099365424548634002}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Columna_Pared.054
   m_TagString: Untagged
   m_Icon: {fileID: 0}
