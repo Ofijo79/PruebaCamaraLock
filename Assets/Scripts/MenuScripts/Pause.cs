@@ -8,6 +8,10 @@ public class Pause : MonoBehaviour
     private bool isPaused = false;
     public GameObject canva;
 
+    void Start()
+    {
+        Time.timeScale = 1f;
+    }
     // Update is called once per frame
     void Update()
     {

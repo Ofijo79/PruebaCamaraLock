@@ -213,7 +213,7 @@ public class Isometriccontroller : MonoBehaviour
 
     public void ComboVerification()
     {
-        canClick = false;
+        //canClick = false;
 
         if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Attack") && buttonQuantity == 1)
         {

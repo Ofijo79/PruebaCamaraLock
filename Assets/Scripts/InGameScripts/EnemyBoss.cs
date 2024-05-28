@@ -64,6 +64,7 @@ public class EnemyBoss : MonoBehaviour
     void Attacking()
     {
         DetenerMovimiento();
+        RotateTowardsPlayer();
         _animator.SetBool("Run", false);
         _animator.SetInteger("attack", 1);
         currentState = State.Combo;
@@ -83,7 +84,7 @@ public class EnemyBoss : MonoBehaviour
 
     IEnumerator WaitForAttackAnimation()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.75f);
         ReanudarMovimiento();
 
         if (OnRangeAttack())
@@ -99,6 +100,7 @@ public class EnemyBoss : MonoBehaviour
     void SecondAttack()
     {
         DetenerMovimiento();
+        RotateTowardsPlayer();
         _animator.SetBool("Run", false);
         _animator.SetInteger("attack", 2);
         currentState = State.Combo;
@@ -108,7 +110,7 @@ public class EnemyBoss : MonoBehaviour
 
     IEnumerator WaitForSecondAttackAnimation()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.75f);
         ReanudarMovimiento();
 
         if (OnRangeAttack())
@@ -125,7 +127,12 @@ public class EnemyBoss : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, playerTransform.position) <= attackRange)
         {
-            return true;
+            Vector3 directionToPlayer = (playerTransform.position - transform.position).normalized;
+            float angleToPlayer = Vector3.Angle(transform.forward, directionToPlayer);
+            if (angleToPlayer <= visionAngle / 2)
+            {
+                return true;
+            }
         }
 
         return false;
@@ -141,6 +148,13 @@ public class EnemyBoss : MonoBehaviour
         return false;
     }
 
+    void RotateTowardsPlayer()
+    {
+        Vector3 direction = (playerTransform.position - transform.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10);
+    }
+
     void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
@@ -151,7 +165,7 @@ public class EnemyBoss : MonoBehaviour
 
         Gizmos.color = Color.green;
         Vector3 fovLine1 = Quaternion.AngleAxis(visionAngle * 0.5f, transform.up) * transform.forward * visionRange;
-        Vector3 fovLine2 = Quaternion.AngleAxis(-visionAngle * 0.2f, transform.up) * transform.forward * visionRange;
+        Vector3 fovLine2 = Quaternion.AngleAxis(-visionAngle * 0.5f, transform.up) * transform.forward * visionRange;
         Gizmos.DrawLine(transform.position, transform.position + fovLine1);
         Gizmos.DrawLine(transform.position, transform.position + fovLine2);
     }

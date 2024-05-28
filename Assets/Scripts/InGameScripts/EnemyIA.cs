@@ -20,33 +20,24 @@ public class EnemyIA : MonoBehaviour
 
     public Transform playerTransform;
 
-    [SerializeField] Transform  patrolAreaCenter;
-    
+    [SerializeField] Transform patrolAreaCenter;
     [SerializeField] Vector2 patrolAreaSize;
-
     public Transform[] points;
 
-    [SerializeField]private int destPoint = 0;
-
+    [SerializeField] private int destPoint = 0;
     [SerializeField] float visionRange = 15;
     [SerializeField] float visionAngle = 50;
+    [SerializeField] float attackRange = 1;
 
     Vector3 lastTargetPosition;
 
-    [SerializeField]float searchTimer;
-
-    [SerializeField]float searchWaitTime = 15;
-
-    [SerializeField]float searchRadius = 30;
+    [SerializeField] float searchTimer;
+    [SerializeField] float searchWaitTime = 15;
+    [SerializeField] float searchRadius = 30;
 
     private bool repeat = true;
 
-    [SerializeField] float attackRange = 1;
-
     Animator _animator;
-
-    
-
 
     void Awake()
     {
@@ -61,30 +52,25 @@ public class EnemyIA : MonoBehaviour
         enemyAgent.destination = points[destPoint].position;
     }
 
-    // Update is called once per frame
     void Update()
     {
         switch (currentState)
         {
             case State.Patrolling:
                 Patrol();
-            break;
-            
+                break;
             case State.Chasing:
                 Chase();
-            break;
-
+                break;
             case State.Searching:
                 Search();
-            break;
-            
+                break;
             case State.Waiting:
                 Waiting();
-            break;
-
+                break;
             case State.Attacking:
                 FirstAttack();
-            break;
+                break;
         }
     }
 
@@ -92,13 +78,12 @@ public class EnemyIA : MonoBehaviour
     {
         _animator.SetBool("TenguStop", false);
         _animator.SetBool("TenguPatrolling", true);
-        if(enemyAgent.remainingDistance < 0.5f)
+        if (enemyAgent.remainingDistance < 0.5f)
         {
-            //SetRandomPoint();
             currentState = State.Waiting;
         }
 
-        if(OnRange() == true)
+        if (OnRange())
         {
             currentState = State.Chasing;
         }
@@ -111,12 +96,12 @@ public class EnemyIA : MonoBehaviour
         _animator.SetInteger("enemyAttack", 0);
         enemyAgent.destination = playerTransform.position;
 
-        if(OnRange() == false)
+        if (!OnRange())
         {
             currentState = State.Searching;
         }
-        
-        if(OnRangeAttack() == true)
+
+        if (OnRangeAttack())
         {
             currentState = State.Attacking;
         }
@@ -126,22 +111,20 @@ public class EnemyIA : MonoBehaviour
     {
         _animator.SetBool("TenguStop", false);
         _animator.SetBool("TenguPatrolling", true);
-        if(OnRange() == true)
+        if (OnRange())
         {
             searchTimer = 0;
             currentState = State.Chasing;
         }
+
         searchTimer += Time.deltaTime;
 
-        if(searchTimer < searchWaitTime)
+        if (searchTimer < searchWaitTime)
         {
-            if(enemyAgent.remainingDistance < 0.5f)
+            if (enemyAgent.remainingDistance < 0.5f)
             {
-                Debug.Log("Buscando punto aleatorio");
                 Vector3 randomSearchPoint = lastTargetPosition + Random.insideUnitSphere * searchRadius;
-
                 randomSearchPoint.y = lastTargetPosition.y;
-
                 enemyAgent.destination = randomSearchPoint;
             }
         }
@@ -153,9 +136,9 @@ public class EnemyIA : MonoBehaviour
 
     void Waiting()
     {
-        if(repeat == true)
+        if (repeat)
         {
-            StartCoroutine("Esperar");
+            StartCoroutine(Esperar());
         }
     }
 
@@ -164,54 +147,16 @@ public class EnemyIA : MonoBehaviour
         _animator.SetBool("TenguPatrolling", false);
         _animator.SetBool("TenguStop", true);
         repeat = false;
-        yield return new WaitForSeconds (1f);
-        GotoNextPoint();
-        currentState = State.Patrolling;  
-        repeat = true;
-    }
-    
-    /*void Attacking()
-    {
-        DetenerMovimiento();
-        _animator.SetBool("TenguStop", false);
-        _animator.SetBool("TenguPatrolling", false);
-        _animator.SetInteger("enemyAttack", 1);
-
-        StartCoroutine(WaitForAttackAnimation());
-    }*/
-
-    void DetenerMovimiento()
-    {
-        // Detener el movimiento del enemigo
-        enemyAgent.isStopped = true;
-    }
-
-    void ReanudarMovimiento()
-    {
-        // Reanudar el movimiento del enemigo
-        enemyAgent.isStopped = false;
-    }
-
-    IEnumerator WaitForAttackAnimation()
-    {
-        // Esperar hasta que la animación de ataque termine
         yield return new WaitForSeconds(1f);
-        ReanudarMovimiento();
-
-        // Verificar si el enemigo sigue dentro del rango de ataque después de la animación
-        if (OnRangeAttack())
-        {
-            SecondAttack();
-        }
-        else
-        {
-            currentState = State.Chasing;
-        }
+        GotoNextPoint();
+        currentState = State.Patrolling;
+        repeat = true;
     }
 
     void FirstAttack()
     {
         DetenerMovimiento();
+        RotateTowardsPlayer();
         _animator.SetBool("TenguStop", false);
         _animator.SetBool("TenguPatrolling", false);
         _animator.SetInteger("enemyAttack", 1);
@@ -224,6 +169,7 @@ public class EnemyIA : MonoBehaviour
     void SecondAttack()
     {
         DetenerMovimiento();
+        RotateTowardsPlayer();
         _animator.SetBool("TenguStop", false);
         _animator.SetBool("TenguPatrolling", false);
         _animator.SetInteger("enemyAttack", 2);
@@ -231,13 +177,37 @@ public class EnemyIA : MonoBehaviour
         StartCoroutine(WaitForSecondAttackAnimation());
     }
 
-    IEnumerator WaitForSecondAttackAnimation()
+    void ThirdAttack()
     {
-        // Esperar hasta que la animación de ataque termine
+        DetenerMovimiento();
+        RotateTowardsPlayer();
+        _animator.SetBool("TenguStop", false);
+        _animator.SetBool("TenguPatrolling", false);
+        _animator.SetInteger("enemyAttack", 3);
+
+        StartCoroutine(WaitForThirdAttackAnimation());
+    }
+
+    IEnumerator WaitForAttackAnimation()
+    {
         yield return new WaitForSeconds(1f);
         ReanudarMovimiento();
 
-        // Verificar si el enemigo sigue dentro del rango de ataque después de la animación
+        if (OnRangeAttack())
+        {
+            SecondAttack();
+        }
+        else
+        {
+            currentState = State.Chasing;
+        }
+    }
+
+    IEnumerator WaitForSecondAttackAnimation()
+    {
+        yield return new WaitForSeconds(1f);
+        ReanudarMovimiento();
+
         if (OnRangeAttack())
         {
             ThirdAttack();
@@ -248,23 +218,11 @@ public class EnemyIA : MonoBehaviour
         }
     }
 
-    void ThirdAttack()
-    {
-        DetenerMovimiento();
-        _animator.SetBool("TenguStop", false);
-        _animator.SetBool("TenguPatrolling", false);
-        _animator.SetInteger("enemyAttack", 3);
-
-        StartCoroutine(WaitForThirdAttackAnimation());
-    }
-    
     IEnumerator WaitForThirdAttackAnimation()
     {
-        // Esperar hasta que la animación de ataque termine
         yield return new WaitForSeconds(2f);
         ReanudarMovimiento();
 
-        // Verificar si el enemigo sigue dentro del rango de ataque después de la animación
         if (OnRangeAttack())
         {
             FirstAttack();
@@ -275,114 +233,74 @@ public class EnemyIA : MonoBehaviour
         }
     }
 
+    void DetenerMovimiento()
+    {
+        enemyAgent.isStopped = true;
+    }
+
+    void ReanudarMovimiento()
+    {
+        enemyAgent.isStopped = false;
+    }
+
     bool OnRangeAttack()
     {
-        if(Vector3.Distance(transform.position, playerTransform.position) <= attackRange)
+        if (Vector3.Distance(transform.position, playerTransform.position) <= attackRange)
         {
-            return true;
-        }
-
-        return false;
-
-        Vector3 directionToPlayer = playerTransform.position - transform.position;
-        float distanceToPlayer = directionToPlayer.magnitude;
-        float angleToPlayer = Vector3.Angle(transform.forward, directionToPlayer);
-
-        if(distanceToPlayer <= attackRange && angleToPlayer < visionAngle * 1f)
-        {
-            return true;
-
-            if(playerTransform.position == lastTargetPosition)
+            Vector3 directionToPlayer = (playerTransform.position - transform.position).normalized;
+            float angleToPlayer = Vector3.Angle(transform.forward, directionToPlayer);
+            if (angleToPlayer <= visionAngle / 2)
             {
-                lastTargetPosition = playerTransform.position;
                 return true;
             }
-
-            RaycastHit hit;
-            if(Physics.Raycast(transform.position, directionToPlayer, out hit, distanceToPlayer))
-            {
-                if(hit.collider.CompareTag("Player"))
-                {
-                    return true;
-                } 
-            }
-
-            return false;
         }
 
         return false;
     }
 
+    bool OnRange()
+    {
+        if (Vector3.Distance(transform.position, playerTransform.position) <= visionRange)
+        {
+            return true;
+        }
+
+        return false;
+    }
+
+    void RotateTowardsPlayer()
+    {
+        Vector3 direction = (playerTransform.position - transform.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10);
+    }
+
     void GotoNextPoint()
     {
-        if(points.Length == 0)
+        if (points.Length == 0)
         {
             return;
         }
 
         destPoint = (destPoint + 1) % points.Length;
         enemyAgent.destination = points[destPoint].position;
-        
     }
 
-    bool OnRange()
-    {
-        if(Vector3.Distance(transform.position, playerTransform.position) <= visionRange)
-        {
-            return true;
-        }
-
-        return false;
-
-        Vector3 directionToPlayer = playerTransform.position - transform.position;
-        float distanceToPlayer = directionToPlayer.magnitude;
-        float angleToPlayer = Vector3.Angle(transform.forward, directionToPlayer);
-
-        if(distanceToPlayer <= visionRange && angleToPlayer < visionAngle * 0.5f)
-        {
-            return true;
-
-            if(playerTransform.position == lastTargetPosition)
-            {
-                lastTargetPosition = playerTransform.position;
-                return true;
-            }
-
-            RaycastHit hit;
-            if(Physics.Raycast(transform.position, directionToPlayer, out hit, distanceToPlayer))
-            {
-                if(hit.collider.CompareTag("Player"))
-                {
-                    return true;
-                } 
-            }
-
-            return false;
-        }
-
-        return false;
-    }
-
-    void OnDrawGizmos() 
+    void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;
-
         Gizmos.DrawWireCube(patrolAreaCenter.position, new Vector3(patrolAreaSize.x, 0, patrolAreaSize.y));
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, visionRange);
-        
+
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
 
         Gizmos.color = Color.green;
-
         Vector3 fovLine1 = Quaternion.AngleAxis(visionAngle * 0.5f, transform.up) * transform.forward * visionRange;
-
-        Vector3 fovLine2 = Quaternion.AngleAxis(-visionAngle * 0.2f, transform.up) * transform.forward * visionRange;
-
+        Vector3 fovLine2 = Quaternion.AngleAxis(-visionAngle * 0.5f, transform.up) * transform.forward * visionRange;
         Gizmos.DrawLine(transform.position, transform.position + fovLine1);
-
         Gizmos.DrawLine(transform.position, transform.position + fovLine2);
     }
 }
