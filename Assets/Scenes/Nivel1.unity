@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 1.1343347, g: 0.53352934, b: 0.12452169, a: 1}
+  m_IndirectSpecularColor: {r: 1.1342546, g: 0.533392, b: 0.12450145, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -73178,6 +73178,10 @@ PrefabInstance:
       propertyPath: canva
       value: 
       objectReference: {fileID: 740587707}
+    - target: {fileID: 8389977952859580282, guid: e031bd43b85299747a8c1589147da00c, type: 3}
+      propertyPath: Resume
+      value: 
+      objectReference: {fileID: 892104450}
     - target: {fileID: 9044807715391214558, guid: e031bd43b85299747a8c1589147da00c, type: 3}
       propertyPath: m_Name
       value: Pause

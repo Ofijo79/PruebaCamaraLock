@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.47124738, g: 0.45483547, b: 0.321085, a: 1}
+  m_IndirectSpecularColor: {r: 0.4712214, g: 0.45485157, b: 0.32160333, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -54426,6 +54426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canva: {fileID: 1522213431716932539}
+  Resume: {fileID: 2434390389117543028}
 --- !u!1 &3697047189510222638
 GameObject:
   m_ObjectHideFlags: 0
